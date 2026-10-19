@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.hero-title h3{
+    font-size: 60px;
+}
+.hero-circle{
+    width: 30px;
+    height: 30px;
+}
+
+.card{
+    transition: all 0.5s;
+}
+.card:hover{
+    translate: 0 -2px ;
+    box-shadow: 10px 10px 10px rgba(130,116,116,0.463);
+}
